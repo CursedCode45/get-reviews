@@ -9,7 +9,6 @@ function MainPage() {
   return (
     <div className="App">
       <Home/>
-      <Home/> 
     </div>
   );
 }
