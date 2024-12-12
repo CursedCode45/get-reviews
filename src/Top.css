@@ -1,0 +1,28 @@
+.top-leka{
+    width: 600px;
+    backdrop-filter: blur(10px);
+    background: rgb(15,112,143);
+    background: linear-gradient(163deg, rgba(15,112,143,0.3) 0%, rgba(0,6,43,0.3) 100%);
+    font-size: 1.6rem;
+}
+.header-text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top-leka-header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    top: 20px;
+
+
+}
+
+@media (max-width: 700px) {
+    .top-leka{
+        width: 350px;
+        font-size: 1.2rem;
+    }
+}

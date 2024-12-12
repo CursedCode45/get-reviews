@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    position:relative;
+
+}
+
+
+
+.home-container{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+@keyframes wiggle {
+    0% { 
+        transform: translate(0px, -5px) rotate(-5deg); 
+    }
+
+  50% {
+        transform: translate(0px, 10px) rotate(5deg);
+    }
+  100% {
+         transform: translate(0px, -5px) rotate(-5deg);
+    }
+}
+
+.wire{
+    position: absolute;
+    z-index: -10;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 1450px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+}
+
+.wire-img{
+    opacity: 50%;
+    transform-origin: top;
+}
+
+.toys-containers{
+    position: absolute;
+    width: 100%;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.toy-containers{
+    position: absolute;
+    animation: wiggle 8s infinite;
+    animation-timing-function: cubic-bezier(.76,.01,.48,.98);
+}
+
+.cube-container{
+    width: 230px;
+
+    left: calc(30% - 250px);
+    top: 150px;
+}
+
+.screw-container{
+    width: 113px;
+    filter: blur(4px);
+
+    left: calc(30% - 150px);
+    top: -10px;
+}
+
+.sphere-container{
+    width: 80px;
+    filter: blur(9px);
+
+    left: calc(35% - 150px);
+    top: 360px;
+}
+
+.star-container{
+    width: 100px;
+    filter: blur(2px);
+
+    right: calc(30% - 50px);
+    top: 300px;
+}
+
+.poly-sphere-container{
+    width: 170px;
+    filter: blur(8px);
+
+    right: calc(30% - 150px);
+    top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+.first-container{
+    display: flex;
+    justify-self: center;
+
+}
+
+.home-text-container{
+    z-index: 3;
+    color: rgb(240 249 255);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.home-h1-t{
+    font-size: 4.57rem;
+    text-align: center;
+}
+
+.home-h3-t{
+    margin-top: 60px;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    font-weight: 1;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+
+.h3-strong{
+    color: rgb(58, 255, 75);
+    font-weight: 900;
+}
+
+
+
+
+.second-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.shopify{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 130px;
+    top: 880px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.411));
+
+    animation: wiggle 8s infinite;
+    animation-timing-function: cubic-bezier(.76,.01,.48,.98);
+}
+
+.home-stars-container{
+    display: flex;
+    padding:10px;
+}
+
+
+.home-star{
+    fill: rgb(255, 255, 67);
+    margin: 4px;
+}
+
+.reviews-counter{
+    position: absolute;
+    right: 16px;
+    top: 11px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.product-container{
+    margin-top: 600px;
+    border: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: rgb(12 74 110);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgb(15,112,143);
+    background: linear-gradient(163deg, rgba(15,112,143,0.3) 0%, rgba(0,6,43,0.3) 100%);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+    width: 300px;
+}
+
+.before{
+    position: absolute;
+    color: rgb(240 249 255);
+    font-size: 3rem;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    top: -45px;
+    left: 73px;
+}
+
+.after {
+    position: absolute;
+    color: rgb(240 249 255);
+    font-size: 3rem;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    top: -45px;
+    left: 80px;
+}
+
+.no-reviews{
+    padding-top: 67px;
+}
+
+.line{
+    background-color: rgba(140, 180, 255, 0.199);
+    border-color: rgba(140, 180, 255, 0.199);
+    height: 2px;
+    width: 100%;
+}
+
+.sale-price{
+    color: aliceblue;
+    font-size: 2rem; 
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.og-price{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 1;
+    text-decoration-line: line-through;
+}
+
+.sale-container{
+    display: flex;
+    margin-left: 10px;
+    line-height: 0.3em;
+}
+
+.off-percentage{
+    font-size: 1rem;
+    color: rgb(255, 131, 131);
+    margin-left: 6px;
+    font-weight: 900;
+}
+
+.product-name{
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+
+
+.block{
+    width: 500px;
+    height: 1000px;
+}
+
+
+@media (min-width:720px) and (max-width:1600px)  {
+    .cube-container{
+        top: 350px;
+        left: calc(30% - 290px);
+    }
+    .star-container{
+        top: 400px;
+        right: 10%;
+    }
+    .shopify{
+        top: 800px;
+    }
+}
+
+@media (min-width:666px) and (max-width:720px) {
+    .home-h1-t{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .cube-container{
+        top: 350px;
+        left: calc(30% - 290px);
+    }
+    .poly-sphere-container{
+        top:-60px
+    }
+    .star-container{
+        top: 460px;
+        right: 40px;
+    }
+
+    .shopify{
+        top: 700px;
+    }
+    .home-h3-t{
+        margin-top: 10px;
+        font-size: 1.22rem;
+        padding: 5px;
+    }
+    .before{
+        font-size: 3rem;
+    }
+    
+}
+
+@media (max-width:666px) {
+    .second-container{
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 400px;
+    }
+    .product-container{
+        margin: 30px;
+    }
+    .shopify{
+        top: 690px;
+    }
+    .home-h3-t{
+        margin-top: 20px;
+        padding: 6px;
+    }
+    .cube-container{
+        top: 380px;
+        left: calc(30% - 290px);
+    }
+    .star-container{
+        top:470px;
+        right: 30px;
+    }
+}
