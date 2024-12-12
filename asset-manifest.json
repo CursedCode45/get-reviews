@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/get-reviews/static/css/main.5e5f6119.css",
+    "main.js": "/get-reviews/static/js/main.4ec8d48e.js",
+    "static/media/Parfume_Podium.png": "/get-reviews/static/media/Parfume_Podium.c0f63bce1582ac9eb2b1.png",
+    "static/media/Star.webp": "/get-reviews/static/media/Star.423149cb74e9b4af459f.webp",
+    "static/media/Wire.webp": "/get-reviews/static/media/Wire.dba4918459ee2d33b5cc.webp",
+    "static/media/Shopify.webp": "/get-reviews/static/media/Shopify.09e8465da33d19a53c1a.webp",
+    "index.html": "/get-reviews/index.html",
+    "main.5e5f6119.css.map": "/get-reviews/static/css/main.5e5f6119.css.map",
+    "main.4ec8d48e.js.map": "/get-reviews/static/js/main.4ec8d48e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e5f6119.css",
+    "static/js/main.4ec8d48e.js"
+  ]
+}
