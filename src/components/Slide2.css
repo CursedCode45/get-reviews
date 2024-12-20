@@ -1,0 +1,172 @@
+.slider2-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 700px;
+    height: 600px;
+
+    backdrop-filter: blur(10px);
+    background: rgb(15,112,143);
+    background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+
+    -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+    -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+    box-shadow:         0px 0px 50px rgb(17, 53, 83);
+
+    border-width: 2px;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: rgb(12 74 110);
+    border-radius: 19px;
+
+    margin-top: 88px;
+}
+
+.slide2-example-container{
+    display: flex;
+    position: absolute;
+    top: 18%;
+}
+
+.slider2-t1{
+    position: absolute;
+    top: 6%;
+    font-family: Source Sans Pro, sans-serif;
+    color: #eae8f1;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: -2px;
+    font-size: 56px;
+}
+
+.slider2-t2{
+    color: #9e9e9e;
+    font-weight: 1;
+    line-height: 56px;
+    letter-spacing: -2px;
+    font-size: 28px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media (min-width:520px) and (max-width:750px)  {
+    .slider2-container{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        width: 470px;
+        height: 400px;
+        backdrop-filter: blur(10px);
+        background: rgb(15,112,143);
+        background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+
+        -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+        -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+        box-shadow:         0px 0px 50px rgb(17, 53, 83);
+
+        border: solid;
+        border-width: 2px;
+        border-top: 0;
+        border-bottom: 0;
+
+        border-color: rgb(12 74 110);
+        border-radius: 20px;
+        padding-bottom: 130px;
+        margin-top: 88px;
+    }
+
+    .slide2-example-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30%;
+    }
+    
+    .slider2-t1{
+        position: absolute;
+        top: 16%;
+        font-family: Source Sans Pro, sans-serif;
+        color: #eae8f1;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: 0px;
+        font-size: 34px;
+    }
+    
+    .slider2-t2{
+        overflow-wrap: break-word;
+        color: #9e9e9e;
+        font-weight: 1;
+        line-height: 28px;
+        letter-spacing: -2px;
+        font-size: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:520px)  {
+    .slider2-container{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        width: 300px;
+        height: 450px;
+        backdrop-filter: blur(10px);
+        background: rgb(15,112,143);
+        background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+
+        -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+        -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+        box-shadow:         0px 0px 50px rgb(17, 53, 83);
+
+        border: solid;
+        border-width: 2px;
+        border-top: 0;
+        border-bottom: 0;
+
+        border-color: rgb(12 74 110);
+        border-radius: 20px;
+        padding-bottom: 130px;
+        margin-top: 88px;
+    }
+
+    .slide2-example-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30%;
+    }
+    
+    .slider2-t1{
+        position: absolute;
+        top: 16%;
+        font-family: Source Sans Pro, sans-serif;
+        color: #eae8f1;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: 0px;
+        font-size: 26px;
+    }
+    
+    .slider2-t2{
+        overflow-wrap: break-word;
+        color: #9e9e9e;
+        font-weight: 1;
+        line-height: 20px;
+        letter-spacing: -2px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}

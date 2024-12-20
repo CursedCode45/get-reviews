@@ -1,0 +1,302 @@
+.slider3-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 700px;
+    height: 600px;
+
+    backdrop-filter: blur(10px);
+    background: rgb(15,112,143);
+    background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+
+    -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+    -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+    box-shadow:         0px 0px 50px rgb(17, 53, 83);
+
+    border-width: 2px;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: rgb(12 74 110);
+    border-radius: 19px;
+
+    margin-top: 88px;
+}
+
+.slider3-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.slider3-product-name{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.slider3-reviews-type{
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.slide3-product-input{
+    padding: 10px;
+    color: whitesmoke;
+    width: 500px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 9px ;
+    border: 1px solid #e5e5e5;
+
+    font-size: 18px;
+}
+
+.slide3-product-input:focus{
+    box-shadow: 0px 0px 26px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    outline: 0;
+    border-color: rgb(0, 162, 255);
+}
+
+
+.slider3-bottom{
+    height: 50%;
+}
+
+
+
+.slider3-loading{
+    height:100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50%;
+    border-top: 5px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid rgba(255, 255, 255, 0.8);
+    border-right: 5px solid transparent;
+    
+    animation: loading 1.7s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+.dont-show{
+    display: none;
+}
+
+.slider3-loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+@media (min-width:520px) and (max-width:750px)  {
+    .slider3-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 470px;
+        height: 400px;
+    
+        backdrop-filter: blur(10px);
+        background: rgb(15,112,143);
+        background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+    
+        -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+        -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+        box-shadow:         0px 0px 50px rgb(17, 53, 83);
+    
+        border-width: 2px;
+        border-top: 0;
+        border-bottom: 0;
+        border-color: rgb(12 74 110);
+        border-radius: 19px;
+    
+        margin-top: 88px;
+    }
+    
+    .slider3-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .slider3-product-name{
+        font-size: 37px;
+        color: white;
+        text-align: center;
+    }
+    .slider3-reviews-type{
+        margin-top: 60px;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .slide3-product-input{
+        padding: 10px;
+        color: whitesmoke;
+        width: 370px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 9px ;
+        border: 1px solid #e5e5e5;
+    
+        font-size: 14px;
+    }
+    
+    .slide3-product-input:focus{
+        box-shadow: 0px 0px 26px rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0);
+        outline: 0;
+        border-color: rgb(0, 162, 255);
+    }
+    
+    
+    .slider3-bottom{
+        height: 50%;
+    }
+    
+    
+    
+    .slider3-loading{
+        height:100px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        border-radius: 50%;
+        border-top: 5px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid rgba(255, 255, 255, 0.8);
+        border-right: 5px solid transparent;
+        
+        animation: loading 1.7s linear infinite;
+    }
+    
+    
+    .dont-show{
+        display: none;
+    }
+    
+    .slider3-loading-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+}
+
+@media (max-width:520px)  {
+    .slider3-container{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        width: 300px;
+        height: 450px;
+        backdrop-filter: blur(10px);
+        background: rgb(15,112,143);
+        background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+
+        -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+        -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+        box-shadow:         0px 0px 50px rgb(17, 53, 83);
+
+        border: solid;
+        border-width: 2px;
+        border-top: 0;
+        border-bottom: 0;
+
+        border-color: rgb(12 74 110);
+        border-radius: 20px;
+        padding-bottom: 130px;
+        margin-top: 88px;
+    }
+
+    .slider3-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .slider3-product-name{
+        font-size: 26px;
+        color: white;
+        text-align: center;
+    }
+    .slider3-reviews-type{
+        margin-top: 60px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    
+    .slide3-product-input{
+        padding: 10px;
+        color: whitesmoke;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 9px ;
+        border: 1px solid #e5e5e5;
+    
+        font-size: 12px;
+    }
+    
+    .slide3-product-input:focus{
+        box-shadow: 0px 0px 26px rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0);
+        outline: 0;
+        border-color: rgb(0, 162, 255);
+    }
+    
+    
+    .slider3-bottom{
+        height: 50%;
+    }
+    
+    
+    
+    .slider3-loading{
+        height:100px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        border-radius: 50%;
+        border-top: 5px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid rgba(255, 255, 255, 0.8);
+        border-right: 5px solid transparent;
+        
+        animation: loading 1.7s linear infinite;
+    }
+}

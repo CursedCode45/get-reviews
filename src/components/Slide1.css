@@ -1,0 +1,273 @@
+
+.slider1-container{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 700px;
+    height: 600px;
+    backdrop-filter: blur(10px);
+    background: rgb(15,112,143);
+    background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+
+    -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+    -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+    box-shadow:         0px 0px 50px rgb(17, 53, 83);
+
+    border: solid;
+    border-width: 2px;
+    border-top: 0;
+    border-bottom: 0;
+
+    border-color: rgb(12 74 110);
+    border-radius: 20px;
+    padding-bottom: 130px;
+    margin-top: 88px;
+}
+
+
+.star-contasiner{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.star{
+    margin: 5px;
+    -webkit-filter: drop-shadow( 1px 8px 0px rgba(40, 43, 0, 0.801));
+    filter: drop-shadow( 1px 8px 0px rgba(40, 43, 0, 0.801));
+}
+
+.text-container{
+    margin: 30px;
+}
+
+.h2-t{
+    color: rgb(240 249 255);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 3.6rem;
+    font-size: 3.0rem;
+    text-align: start;
+}
+
+.h2-t2{
+    display: flex;
+    color: rgb(240 249 255);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 3.6rem;
+    font-size: 3.0rem;
+    text-align: start;
+}
+.rating-text{
+    color: rgb(242, 255, 61);
+    margin-left: 4rem;
+}
+
+.range-slider{
+    margin-top: 40px;
+    border: none;
+    width: 250px;
+    stroke-width: 0;
+    margin-bottom: 50px;
+    transform: scale(2);
+}
+
+
+.slider1-url-container{
+    width: 70%;
+}
+
+.slide1-url-input{
+    padding: 10px;
+    color: whitesmoke;
+    width: 100%;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 9px ;
+    border: 1px solid #e5e5e5;
+
+    font-size: 18px;
+}
+
+.slide1-url-input:focus{
+    box-shadow: 0px 0px 26px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    outline: 0;
+    border-color: rgb(0, 162, 255);
+}
+
+.slide1-url-input-red{
+    padding: 10px;
+    color: whitesmoke;
+    width: 100%;
+    height: 56px;
+    background-color: rgba(255, 56, 56, 0);
+    border-radius: 9px ;
+    border: 1px solid rgb(255, 56, 56);
+
+    font-size: 18px;
+}
+
+.slide1-url-input-red:focus{
+    box-shadow: 0px 0px 26px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    outline: 0;
+    border-color: rgb(255, 56, 56);
+}
+
+.slide1-invalid-url-text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(255, 18, 18);
+    font-size: 23px;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+
+}
+
+
+@media (min-width:520px) and (max-width:750px)  {
+    .slider1-container{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        width: 470px;
+        height: 400px;
+        backdrop-filter: blur(10px);
+        background: rgb(15,112,143);
+        background: linear-gradient(163deg, rgba(15,112,143,0.1) 0%, rgba(0,6,43,0.3) 100%);
+
+        -moz-box-shadow:    0px 0px 50px rgb(17, 53, 83);
+        -webkit-box-shadow: 0px 0px 50px rgb(17, 53, 83);
+        box-shadow:         0px 0px 50px rgb(17, 53, 83);
+
+        border: solid;
+        border-width: 2px;
+        border-top: 0;
+        border-bottom: 0;
+
+        border-color: rgb(12 74 110);
+        border-radius: 20px;
+        padding-bottom: 130px;
+        margin-top: 88px;
+    }
+
+    .star-contasiner{
+        display: flex;
+        align-items: center;
+        margin-top: 130px;
+    }
+    
+    .star{
+        margin: 5px;
+        -webkit-filter: drop-shadow( 1px 8px 0px rgba(40, 43, 0, 0.801));
+        filter: drop-shadow( 1px 8px 0px rgba(40, 43, 0, 0.801));
+    }
+    
+    .text-container{
+        margin: 30px;
+    }
+    
+    .h2-t{
+        color: rgb(240 249 255);
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 700;
+        line-height: 3.6rem;
+        font-size: 2.0rem;
+        text-align: start;
+    }
+    
+    .h2-t2{
+        display: flex;
+        color: rgb(240 249 255);
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 700;
+        line-height: 1.7rem;
+        font-size: 2.0rem;
+        text-align: start;
+    }
+    .rating-text{
+        color: rgb(242, 255, 61);
+        margin-left: 4rem;
+    }
+    
+    .range-slider{
+        margin-top: 30px;
+        border: none;
+        width: 290px;
+        stroke-width: 0;
+        margin-bottom: 90px;
+        transform: scale(1.1);
+    }
+    
+    
+    .slider1-url-container{
+        position: absolute;
+        width: 85%;
+        top:55%;
+    }
+    
+    .slide1-url-input{
+        padding: 10px;
+        color: whitesmoke;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 9px ;
+        border: 1px solid #e5e5e5;
+    
+        font-size: 14px;
+    }
+    
+    .slide1-url-input:focus{
+        box-shadow: 0px 0px 26px rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0);
+        outline: 0;
+        border-color: rgb(0, 162, 255);
+    }
+    
+    .slide1-url-input-red{
+        padding: 10px;
+        color: whitesmoke;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(255, 56, 56, 0);
+        border-radius: 9px ;
+        border: 1px solid rgb(255, 56, 56);
+    
+        font-size: 14px;
+    }
+    
+    .slide1-url-input-red:focus{
+        box-shadow: 0px 0px 26px rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0);
+        outline: 0;
+        border-color: rgb(255, 56, 56);
+    }
+    
+    .slide1-invalid-url-text{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        color: rgb(255, 18, 18);
+        font-size: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+    
+    }
+}
+
+
+
