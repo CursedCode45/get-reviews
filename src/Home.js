@@ -49,8 +49,8 @@ export default function Home() {
                         <Star_SVG size='30px' className='home-star' fillPercentage='100%'/>
                         <Star_SVG size='30px' className='home-star' fillPercentage='100%'/>
                         <Star_SVG size='30px' className='home-star' fillPercentage='100%'/>
-                        <Star_SVG size='30px' className='home-star' fillPercentage='100%'/>
-                        <p className='reviews-counter'>100</p>
+                        <Star_SVG size='30px' className='home-star' fillPercentage='60%'/>
+                        <p className='reviews-counter'>521</p>
                     </div>
                     <img src={Parfume_Podium} alt="Product shopify"/>
                     <hr className='line'></hr>

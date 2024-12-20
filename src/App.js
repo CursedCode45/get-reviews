@@ -2,7 +2,8 @@ import './App.css';
 import Top from './Top';
 import Home from './Home';
 import ReviewsPage from './ReviewsPage';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 
 
 function MainPage() {
@@ -17,9 +18,6 @@ function MainPage() {
 function Contact() {
   return (
   <div className="a">
-      <h1>
-        Contact
-      </h1>
   </div>
   );
 }
@@ -31,7 +29,7 @@ export default function App() {
     <Top/>
     <Routes>
         <Route path='/' element={<MainPage/>}/>
-        <Route path='/get-reviews' element={<ReviewsPage/>}/>
+        <Route path='/buy-reviews' element={<ReviewsPage/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </>
